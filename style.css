@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, black, rgb(0, 0, 78));
+}
+
+.quiz_container {
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 1005;
+    box-shadow: 0 0 10px 5px rgb(80, 80, 80);
+}
+
+.quiz-header {
+    padding: 2rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
