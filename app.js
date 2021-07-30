@@ -38,6 +38,7 @@ const quizData = [{
 
 const questionEl = document.getElementById("question");
 const answersEls = document.querySelectorAll(".answer");
+const quiz = document.getElementById("quiz");
 const a_text = document.getElementById("a_text");
 const b_text = document.getElementById("b_text");
 const c_text = document.getElementById("c_text");
@@ -92,7 +93,7 @@ submitBtn.addEventListener("click", () => {
         if (currentQuiz < quizData.length) {
             loadQuiz();
         } else {
-            alert("You have finished! Get yourself an Orange juice")
+            quiz.innerHTML = `<h2> You answered correctly at   ${score}/${quizData.length} question. </h2>`;
         }
     }
 
