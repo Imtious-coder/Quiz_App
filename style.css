@@ -35,6 +35,14 @@ ul li {
     font-size: 1.1rem;
 }
 
+ul li label {
+    cursor: pointer;
+}
+
+ul li input {
+    cursor: pointer;
+}
+
 button {
     background-color: #8e44ad;
     color: white;
