@@ -22,11 +22,17 @@ body {
 }
 
 .quiz-header {
-    padding: 3rem;
+    padding: 2rem;
 }
 
 h2 {
     padding: 20px;
+    color: rgb(0, 173, 9);
+}
+
+h4 {
+    padding: 20px;
+    padding-bottom: 0px;
     color: rgb(0, 173, 9);
 }
 

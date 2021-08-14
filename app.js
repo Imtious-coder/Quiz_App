@@ -1,39 +1,39 @@
 // Quiz data...
 const quizData = [{
-    question: 'How old is Alan',
-    a: '10',
-    b: '17',
-    c: '26',
-    d: '110',
+    question: 'What are you Searching for ?',
+    a: 'Angular Developer',
+    b: 'Frontend Developer(React)',
+    c: 'JavaScript Devloper',
+    d: 'Fullstack Developer',
+    correct: 'b'
+}, {
+    question: 'Experience required ?',
+    a: '0-1 years',
+    b: '1+ years',
+    c: '2+ years',
+    d: '3+ years',
+    correct: 'b'
+}, {
+    question: 'Which skills do you need ?',
+    a: 'JavaScript | React.js | HTML5 | CSS3 | Tailwind | Bootstrap | Ant Design | Material UI | REST API | React Router | Firebase & Git ',
+    b: 'JavaScript | Angular.js | HTML5 | CSS3|  Tailwind | Bootstrap | Ant | Material UI | REST API, & Git',
+    c: 'JavaScript | Vue.js | HTML5 | CSS3|  Bootstrap | Material UI | REST API, & Git',
+    d: 'JavaScript | jQuery.js | HTML5 | CSS3|  Tailwind | Bootstrap | Material UI | REST API, & Git',
+    correct: 'a'
+}, {
+    question: 'What is the job type',
+    a: 'Full time',
+    b: 'Part time',
+    c: 'Full time (Remote) ',
+    d: 'Contract',
     correct: 'c'
 }, {
-    question: 'What is the most used PL in 2021',
-    a: 'Java',
-    b: 'C',
-    c: 'Golang',
-    d: 'JavaScript',
-    correct: 'd'
-}, {
-    question: 'Who is the president of US',
-    a: 'Chonda',
-    b: 'Mannan',
-    c: 'Asma',
-    d: 'Nasima',
-    correct: 'a'
-}, {
-    question: 'What does HTML stands for',
-    a: 'Hypertext Markup Language',
-    b: 'Cascading Style Sheet',
-    c: 'Jason Object Notation',
-    d: 'Heli Tall Man Loves',
-    correct: 'a'
-}, {
-    question: 'What year was JavaScript launched',
-    a: '1996',
-    b: '1995',
-    c: '1994',
-    d: 'None of the avobe',
-    correct: 'd'
+    question: 'Job level !',
+    a: 'Entry level',
+    b: 'Mid level',
+    c: 'Senior level ',
+    d: 'Legend level',
+    correct: 'b'
 }];
 
 const questionEl = document.getElementById("question");
@@ -93,7 +93,7 @@ submitBtn.addEventListener("click", () => {
         if (currentQuiz < quizData.length) {
             loadQuiz();
         } else {
-            quiz.innerHTML = `<h2> You answered correctly at   ${score}/${quizData.length} question. </h2>`;
+            quiz.innerHTML = `<h2> You matched   ${score}/${quizData.length} question with me. </br> <h4> Curious ? let me know what you think . . . <h4> </h2>`;
         }
     }
 

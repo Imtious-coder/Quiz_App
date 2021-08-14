@@ -4,17 +4,15 @@
 
 <a  href="https://imtious-coder.github.io/Quiz_App/"><img  width="100%"  height="100%"  src="./image.png"/></a>
 
-## A random password generator. Generate password as  user need.
+## A simple quiz app by JavaScript.
 
-* Generate a secure password.
-* Choose letter amount min 1 to max 10. 
-* Uppercase checkbox to include uppercase letter if need.
-* Lowercase checkbox to include lowercase letter if need.
-* Symbol checkbox to include symbol if need
-* Clean coding.
-* Well commented code.
+* Quiz functionality.
+* Five quiz. 
+* Match me with your job requiements.
+* Score showed.
+* Clean & well commented code.
 
 
-#### Tech and Tools: JavaScript, ES6+, HTML5, CSS3 and Git
+#### Tech and Tools: JavaScript, HTML5, CSS3 and Git
 
 ###### Imtious Islam
