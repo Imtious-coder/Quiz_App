@@ -8,7 +8,7 @@
 
 * Quiz functionality.
 * Five quiz. 
-* Match me with your job requiements.
+* Match me with your job requirement's.
 * Score showed.
 * Clean & well commented code.
 
