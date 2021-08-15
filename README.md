@@ -7,11 +7,10 @@
 ## A simple quiz app by JavaScript.
 
 * Quiz functionality.
-* Five quiz. 
+* Five quizzes. 
 * Match me with your job requirement's.
 * Score showed.
 * Clean & well commented code.
-
 
 #### Tech and Tools: JavaScript, HTML5, CSS3 and Git
 
