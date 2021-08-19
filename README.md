@@ -12,6 +12,6 @@
 * Score showed.
 * Clean & well commented code.
 
-#### Tech and Tools: JavaScript, HTML5, CSS3 and Git
+#### Tech and Tools: JavaScript || HTML5 || CSS3  || Git
 
 ###### Imtious Islam
